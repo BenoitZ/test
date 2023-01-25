@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+.head{
+    background-image: url(img/672539.jpeg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+}
+
+.head img{
+    margin: 30px;
+    width:200px;
+    height: 200px;
+}
+
+.head div{
+    width: 100%;
+}
+
+h1{
+    margin-left: 200px;
+    font-size: 3.5em;
+    padding-top: 20px;
+}
+
+.head p{
+    padding-top: 20px;
+    color: white;
+    font-size: 2em;
+    width: 70%;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    background-color: black;
+    padding-left: 130px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    margin: 15px 40px;
+    padding: 0px 50px;
+    color: bisque;
+    font-size: 1.5em;
+}
+
+input{
+    font-size: 1.7em;
+    margin-top: 12px;
+}
+
+.loupe{
+    color: white;
+    padding-left: 9px;
+}
+
+.banniere{
+    background-color: black;
+    text-align: center;
+    margin: 30px;
+}
+
+@media screen and (max-width : 1760px) {
+    .head p{
+        height: 150px;
+        padding-top: 20px;
+        font-size: 1.5em;
+    }   
+}
+
+@media screen and (max-width : 1200px) {
+    h1{
+        margin-left: 100px;
+        font-size: 2.5em;
+    }
+
+    .head p{
+        overflow: scroll;
+    } 
+}
+
+
+
+/* MAIN */
+
+main{
+    margin: 30px;
+    display: flex;
+}
+
+section{
+    display: contents;
+}
+
+article{
+    border: solid 5px black;
+    width: 1200px;
+    height: 1850px;
+    display: inline-block;
+}
+
+h2{
+    text-align: start;
+    background-color: black;
+    color: bisque;
+    font-size: 2em;
+    padding-left: 10px;
+    padding-top: 15px;
+    height: 70px;
+}
+
+.turner{
+    padding: 50px;
+    display: flex;
+}
+
+.turner p{
+    margin: 70px;
+    margin-top: 200px;
+    font-size: 1.5em;
+    height: 400px;
+    overflow: scroll;
+}
+
+.turner p::-webkit-scrollbar {
+    width: 20px;
+}
+
+.turner p::-webkit-scrollbar-thumb {
+    background-color: bisque;
+    border: 6px solid black;
+    border-radius: 20px; 
+}
+
+button{
+    text-align: center;
+    margin-bottom: 55px;
+    width: 300px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: black;
+    color: beige;
+    margin-right: 150px;
+    margin-left: 130px;
+    font-size: 1.5em;
+}
+
+.galerie{
+    display: flex;
+}
+
+.galerie img{
+    padding: 50px;
+    padding-bottom: 0%;
+    display: flex;
+    width: 400px;
+    height: 250px;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 10px;
+}
+
+.articleDeux p{
+    margin: 50px;
+    font-size: 1.5em;
+}
+
+.articleDeux i{
+    padding-top: 150px;
+}
+
+.etoiles{
+    padding-left: 50px;
+}
+
+
+/* ASIDE */
+
+aside .video{
+    border: solid 5px black;
+    width: 650px;
+    height: 600px;
+    font-size: 1.5em;
+}
+
+.video button{
+    margin-left: 160px;
+}
+
+aside .entreprise{
+    border: solid 5px black;
+    width: 650px;
+    height: 1000px;
+    margin-top: 40px;
+    font-size: 1.5em;
+}
+
+h3{
+    text-align: center;
+    padding: 20px 0px;
+    background-color: black;
+    color: bisque;
+    font-size: 1.5em;
+}
+
+.entreprise p{
+    padding: 40px;
+    margin: 40% 0px;
+}
+
+iframe{
+    padding: 40px;
+    padding-left: 100px;
+}
+aside{
+    display: inline-block;
+    margin-left: 50px;
+}
+
